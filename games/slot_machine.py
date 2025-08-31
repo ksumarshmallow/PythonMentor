@@ -1,18 +1,49 @@
 import pygame
 import random
 
+width, height = 600, 400
+
 # инициализация движка
 pygame.init()
 
-# ширину и длину окна
-width, height = 800, 400
-
 # создаем окно с игрой
 screen = pygame.display.set_mode((width, height))
-pygame.display.set_caption('Slot')
+pygame.display.set_caption('Slot-machine')
 
-# создаем "фонт" - шрифт которым будем все печатать (тип и размер)
-font = pygame.font.SysFont("arial", 24)
+# Задаем шрифты
+font = pygame.font.Font(None, 36)  # None = стандартный шрифт, 36 = размер
+
+# Кнопка - начать крутить барабан
+# контейнер для кнопки
+button = pygame.Rect(400, 150, 100, 60)
+# меняем расположение кнопки
+button.center = (3 * width // 4, height // 2)
+
+color_button = (127, 0, 255)
+color_text_button = (255, 255, 255)
+
+# Подгружаем изображения для слот-машины
+cherry = pygame.image.load("cherry.png")
+peach = pygame.image.load("peach.png")
+apple = pygame.image.load("apple.png")
+grape = pygame.image.load("grape.png")
+
+# задаем правильный размер
+FRUIT_SIZE = (64, 64)
+cherry = pygame.transform.smoothscale(cherry, FRUIT_SIZE)
+peach = pygame.transform.smoothscale(peach, FRUIT_SIZE)
+apple = pygame.transform.smoothscale(apple, FRUIT_SIZE)
+grape = pygame.transform.smoothscale(grape, FRUIT_SIZE)
+
+fruit_images = {
+    "cherry": cherry,
+    "peach": peach,
+    "apple": apple,
+    "grape": grape
+}
+
+# тут будут фрукты которые отрисовываем
+fruits = []
 
 # открыто ли окно с игрой
 running = True
@@ -21,45 +52,41 @@ while running:
         if event.type == pygame.QUIT:
             running = False
         
-        elif event.type == pygame.KEYDOWN:
-            slots = [random.choice(['1', '2', '3']) for _ in range(3)]
-            if len(set(slots)) == 1:
-                message = "Ты выиграл!"
-            else:
-                message = "Попробуй еще раз"
+        # Проверяем клик мышью
+        if event.type == pygame.MOUSEBUTTONDOWN:  # нажата кнопка мыши
+            if button.collidepoint(event.pos):   # event.pos = (x, y) клика
+                fruits = [
+                    random.choice(list(fruit_images.keys())) for _ in range(3)
+                ]
+
+    # задать цвет фона
+    screen.fill((0, 0, 0))
+
+    # пишем обновление
+    # 1. рисуем кнопку
+    pygame.draw.rect(screen, color_button, button)
     
-            # цвет фона - черный
-            screen.fill((0, 0, 0))
+    # 2. добавляем текст на кнопку
+    text_surface = font.render("SPIN!", True, color_text_button)  # (текст, сглаживание, цвет)
+    # получаем прямоугольник текста и центрируем его по кнопке
+    text_rect = text_surface.get_rect(center=button.center)
+    # рисуем текст поверх кнопки
+    screen.blit(text_surface, text_rect)
 
-            # словарь соответствия номера символа -> позиции в окне
-            idx_to_position = {0: 150, 1: 250, 2: 350}
+    if fruits:
+        start_x = width // 4  # начало ряда
+        y = height // 2       # высота ряда
+        spacing = 100         # расстояние между фруктами
+    
+    for i, fruit in enumerate(fruits):
+        image = fruit_images[fruit]
+        rect = image.get_rect(
+            center=(start_x + i * spacing, y)
+        )
+        screen.blit(image, rect)
 
-            # отрисовка каждого символа
-            for idx, symbol in enumerate(slots):
-                # для каждого нужна позиция: на какой "высоте" и "ширине" его располагать
-                x = idx_to_position[idx]
-                y = 200
 
-                # передаем то, что хотим отрисовать на наш фонт и цвет (тут он белый)
-                text = font.render(symbol, True, (255, 255, 255))
-
-                # создаем прямоугольник куда поместим символ
-                rect = text.get_rect(center=(x, y))
-
-                # blit(source, destination) - передаем в окно то, что хотим нарисовать (source)
-                # и куда хотим нарисовать (rect)
-                screen.blit(text, rect)
-            
-            # отображаем текст - победили или проиграли
-            info = font.render(message, True, (200, 200, 200))
-            # также передаем сообщение и то, на какую позицию хотим поместить текст
-            screen.blit(info, (80, 330))
-
-            # обновление картинки
-            pygame.display.flip()
-
-# задать цвет фона - черный после выхода из игры
-screen.fill((0, 0, 0))
+    pygame.display.flip()
 
 # закрытие движка
 pygame.quit()
