@@ -17,8 +17,13 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-# задать цвет фона - черный после выхода из игры
-screen.fill((0, 0, 0))
+    # убираем прошлую картинку (делаем заливку экрана черным)
+    screen.fill((0, 0, 0))
+
+    # как-то обновляем элементы
+
+    # обновляем screen
+    pygame.display.flip()
 
 # закрытие движка
 pygame.quit()
