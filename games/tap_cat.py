@@ -32,6 +32,10 @@ rect_cat = cat.get_rect(center=(WIDTH//2, HEIGHT//2))   # рисуем посе�
 font = pygame.font.SysFont("Arial", 24, bold=True)
 num_taps = 0
 
+#### Анимация ####
+pressed = False
+press_timer = 0
+
 #### Игровой цикл ####
 running = True
 while running:
@@ -41,20 +45,31 @@ while running:
 
         if event.type == pygame.MOUSEBUTTONDOWN and rect_cat.collidepoint(event.pos):
             num_taps += 1
+            pressed = True
+            press_timer = 5     # сколько кадров "сжимать" кота
 
     # очистка экрана
     screen.fill(COLOR_BG)
 
+    # анимация "нажатия"
+    if pressed:
+        scale = 0.9  # 90% размера
+        press_timer -= 1
+        if press_timer <= 0:
+            pressed = False
+    else:
+        scale = 1.0
+
     # обновляем позицию кота
-    rect_cat = cat.get_rect(center=(WIDTH//2, HEIGHT//2))   # рисуем посередине
+    scaled_cat = pygame.transform.scale(cat, (int(WIDTH_CAT * scale), int(HEIGHT_CAT * scale)))
+    rect_cat = scaled_cat.get_rect(center=(WIDTH//2, HEIGHT//2))
 
     # рисуем кота
-    screen.blit(cat, rect_cat)
+    screen.blit(scaled_cat, rect_cat)
 
     # рисуем текст
     text_surface = font.render(f"Taps: {num_taps}", True, COLOR_TEXT)
-    text_rect = text_surface.get_rect(topleft=(10, 10))
-    screen.blit(text_surface, text_rect)
+    screen.blit(text_surface, (10, 10))
 
     # обновляем экран
     pygame.display.flip()
