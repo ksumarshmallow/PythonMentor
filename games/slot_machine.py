@@ -1,102 +1,72 @@
+
 import pygame
 import random
 
+# инициализация движка
 pygame.init()
 
-#### Константы ####
-WIDTH, HEIGHT = 720, 420
-FPS = 60
+# ширину и длину окна
+WIDTH, HEIGHT = 680, 420
+BUTTON_COLOR = (255, 0, 0)
+FRUIT_WIDTH, FRUIT_HEIGHT = 50, 50
 
-# Цвета
-COLOR_BG = (30, 30, 30)
-COLOR_BUTTON = (127, 0, 255)
-COLOR_BUTTON_HOVER = (170, 50, 255)
-COLOR_BUTTON_PRESSED = (100, 0, 200)
-COLOR_TEXT = (255, 255, 255)
-COLOR_SLOT = (160, 160, 160)
-
-# Размеры
-BUTTON_SIZE = (160, 70)
-FRUIT_SIZE = (64, 64)
-FRUITS_COUNT = 3
-FRUITS_SPACING = 120
-SLOT_SIZE = (80, 80)
-
-#### Экран ####
+# создаем окно с игрой
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Slot-machine")
-clock = pygame.time.Clock()
+pygame.display.set_caption('Slot machine')
 
-#### Шрифт ####
-font = pygame.font.Font(None, 36)
+# кнопка "крутить"
+# (левый верхний угол по OX, левый врехний угол по OY, Ширина, Высота)
+button_rect = pygame.Rect(400, HEIGHT//2, 200, 100) 
 
-#### Кнопка ####
-button = pygame.Rect(0, 0, *BUTTON_SIZE)
-button.center = (4 * WIDTH // 5, HEIGHT // 2)
+# подгружаем изображения
+cherry = pygame.image.load("imgs/cherry.png")
+apple = pygame.image.load("imgs/apple.png")
+grape = pygame.image.load("imgs/grape.png")
+peach = pygame.image.load("imgs/peach.png")
 
-#### Фрукты ####
-fruit_files = ["cherry.png", "peach.png", "apple.png", "grape.png"]
-fruit_images = {}
+fruits = [cherry, apple, grape, peach]
+# пройдемся по списку, у каждого объекта изменим размер и перезапишем его в списке
+for idx, fruit in enumerate(fruits):
+    fruit = pygame.transform.scale(fruit, (FRUIT_WIDTH, FRUIT_HEIGHT))
+    # перехаписываем изначальный объект
+    fruits[idx] = fruit
 
-for file in fruit_files:
-    img = pygame.image.load(f"imgs/{file}").convert_alpha()
-    img = pygame.transform.smoothscale(img, FRUIT_SIZE)
-    fruit_images[file.split(".")[0]] = img
+def sample_fruits():
+    a = []
+    for _ in range(3):
+        a.append(random.choice(fruits))
+    return a
 
-fruits = []  # текущий результат
-
-#### Функции ####
-def draw_button(color_button):
-    """Рисует кнопку с текстом"""
-    pygame.draw.rect(screen, color_button, button, border_radius=15)    # border_radius - закругленные края
-    text_surface = font.render("SPIN!", True, COLOR_TEXT)
-    text_rect = text_surface.get_rect(center=button.center)
-    screen.blit(text_surface, text_rect)
-
-def draw_fruits():
-    """Рисует фрукты на экране"""
-    if not fruits:
-        return
-
-    start_x = WIDTH // 4
-    y = HEIGHT // 2
-
-    for i, fruit in enumerate(fruits):
-        slot_rect = pygame.Rect(0, 0, *SLOT_SIZE)
-        slot_rect.center = (start_x + i * FRUITS_SPACING, y)
-
-        # Слот (рамка + фон)
-        pygame.draw.rect(screen, COLOR_SLOT, slot_rect, border_radius=4, width=0)
-
-        image = fruit_images[fruit]
-        img_rect = image.get_rect(center=slot_rect.center)
-        screen.blit(image, img_rect)
-
-def spin():
-    """Генерирует случайные фрукты"""
-    return [random.choice(list(fruit_images.keys())) for _ in range(FRUITS_COUNT)]
-
-#### Игровой цикл ####
+# открыто ли окно с игрой
+sampled_fruits = []
 running = True
+
 while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
+        
+        if event.type == pygame.MOUSEBUTTONDOWN and button_rect.collidepoint(event.pos):
+            sampled_fruits = sample_fruits() # список из изображений фруктов
 
-        if event.type == pygame.MOUSEBUTTONDOWN and button.collidepoint(event.pos):
-            color_button = COLOR_BUTTON_PRESSED
-            fruits = spin()
-        elif event.type == pygame.MOUSEBUTTONUP and button.collidepoint(event.pos):
-            color_button = COLOR_BUTTON_HOVER
-        else:
-            color_button = COLOR_BUTTON
+    # убираем прошлую картинку (делаем заливку экрана черным)
+    screen.fill((0, 0, 0))
 
-    # рендер
-    screen.fill(COLOR_BG)
-    draw_button(color_button)
-    draw_fruits()
+    # как-то обновляем элементы
+    pygame.draw.circle(
+        screen,
+        BUTTON_COLOR,
+        center=button_rect.center,
+        radius=50
+    )
 
+    # если нажали на кнопку
+    if len(sampled_fruits) > 0:
+        for idx, fruit in enumerate(sampled_fruits):
+            screen.blit(fruit, (100 * (idx + 1), HEIGHT//2))
+
+    # обновляем screen
     pygame.display.flip()
-    clock.tick(FPS)
 
+# закрытие движка
 pygame.quit()
