@@ -1,92 +1,102 @@
 import pygame
 import random
 
-width, height = 600, 400
-
-# инициализация движка
 pygame.init()
 
-# создаем окно с игрой
-screen = pygame.display.set_mode((width, height))
-pygame.display.set_caption('Slot-machine')
+#### Константы ####
+WIDTH, HEIGHT = 720, 420
+FPS = 60
 
-# Задаем шрифты
-font = pygame.font.Font(None, 36)  # None = стандартный шрифт, 36 = размер
+# Цвета
+COLOR_BG = (30, 30, 30)
+COLOR_BUTTON = (127, 0, 255)
+COLOR_BUTTON_HOVER = (170, 50, 255)
+COLOR_BUTTON_PRESSED = (100, 0, 200)
+COLOR_TEXT = (255, 255, 255)
+COLOR_SLOT = (160, 160, 160)
 
-# Кнопка - начать крутить барабан
-# контейнер для кнопки
-button = pygame.Rect(400, 150, 100, 60)
-# меняем расположение кнопки
-button.center = (3 * width // 4, height // 2)
-
-color_button = (127, 0, 255)
-color_text_button = (255, 255, 255)
-
-# Подгружаем изображения для слот-машины
-cherry = pygame.image.load("cherry.png")
-peach = pygame.image.load("peach.png")
-apple = pygame.image.load("apple.png")
-grape = pygame.image.load("grape.png")
-
-# задаем правильный размер
+# Размеры
+BUTTON_SIZE = (160, 70)
 FRUIT_SIZE = (64, 64)
-cherry = pygame.transform.smoothscale(cherry, FRUIT_SIZE)
-peach = pygame.transform.smoothscale(peach, FRUIT_SIZE)
-apple = pygame.transform.smoothscale(apple, FRUIT_SIZE)
-grape = pygame.transform.smoothscale(grape, FRUIT_SIZE)
+FRUITS_COUNT = 3
+FRUITS_SPACING = 120
+SLOT_SIZE = (80, 80)
 
-fruit_images = {
-    "cherry": cherry,
-    "peach": peach,
-    "apple": apple,
-    "grape": grape
-}
+#### Экран ####
+screen = pygame.display.set_mode((WIDTH, HEIGHT))
+pygame.display.set_caption("Slot-machine")
+clock = pygame.time.Clock()
 
-# тут будут фрукты которые отрисовываем
-fruits = []
+#### Шрифт ####
+font = pygame.font.Font(None, 36)
 
-# открыто ли окно с игрой
+#### Кнопка ####
+button = pygame.Rect(0, 0, *BUTTON_SIZE)
+button.center = (4 * WIDTH // 5, HEIGHT // 2)
+
+#### Фрукты ####
+fruit_files = ["cherry.png", "peach.png", "apple.png", "grape.png"]
+fruit_images = {}
+
+for file in fruit_files:
+    img = pygame.image.load(f"imgs/{file}").convert_alpha()
+    img = pygame.transform.smoothscale(img, FRUIT_SIZE)
+    fruit_images[file.split(".")[0]] = img
+
+fruits = []  # текущий результат
+
+#### Функции ####
+def draw_button(color_button):
+    """Рисует кнопку с текстом"""
+    pygame.draw.rect(screen, color_button, button, border_radius=15)    # border_radius - закругленные края
+    text_surface = font.render("SPIN!", True, COLOR_TEXT)
+    text_rect = text_surface.get_rect(center=button.center)
+    screen.blit(text_surface, text_rect)
+
+def draw_fruits():
+    """Рисует фрукты на экране"""
+    if not fruits:
+        return
+
+    start_x = WIDTH // 4
+    y = HEIGHT // 2
+
+    for i, fruit in enumerate(fruits):
+        slot_rect = pygame.Rect(0, 0, *SLOT_SIZE)
+        slot_rect.center = (start_x + i * FRUITS_SPACING, y)
+
+        # Слот (рамка + фон)
+        pygame.draw.rect(screen, COLOR_SLOT, slot_rect, border_radius=4, width=0)
+
+        image = fruit_images[fruit]
+        img_rect = image.get_rect(center=slot_rect.center)
+        screen.blit(image, img_rect)
+
+def spin():
+    """Генерирует случайные фрукты"""
+    return [random.choice(list(fruit_images.keys())) for _ in range(FRUITS_COUNT)]
+
+#### Игровой цикл ####
 running = True
 while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
-        
-        # Проверяем клик мышью
-        if event.type == pygame.MOUSEBUTTONDOWN:  # нажата кнопка мыши
-            if button.collidepoint(event.pos):   # event.pos = (x, y) клика
-                fruits = [
-                    random.choice(list(fruit_images.keys())) for _ in range(3)
-                ]
 
-    # задать цвет фона
-    screen.fill((0, 0, 0))
+        if event.type == pygame.MOUSEBUTTONDOWN and button.collidepoint(event.pos):
+            color_button = COLOR_BUTTON_PRESSED
+            fruits = spin()
+        elif event.type == pygame.MOUSEBUTTONUP and button.collidepoint(event.pos):
+            color_button = COLOR_BUTTON_HOVER
+        else:
+            color_button = COLOR_BUTTON
 
-    # пишем обновление
-    # 1. рисуем кнопку
-    pygame.draw.rect(screen, color_button, button)
-    
-    # 2. добавляем текст на кнопку
-    text_surface = font.render("SPIN!", True, color_text_button)  # (текст, сглаживание, цвет)
-    # получаем прямоугольник текста и центрируем его по кнопке
-    text_rect = text_surface.get_rect(center=button.center)
-    # рисуем текст поверх кнопки
-    screen.blit(text_surface, text_rect)
-
-    if fruits:
-        start_x = width // 4  # начало ряда
-        y = height // 2       # высота ряда
-        spacing = 100         # расстояние между фруктами
-    
-    for i, fruit in enumerate(fruits):
-        image = fruit_images[fruit]
-        rect = image.get_rect(
-            center=(start_x + i * spacing, y)
-        )
-        screen.blit(image, rect)
-
+    # рендер
+    screen.fill(COLOR_BG)
+    draw_button(color_button)
+    draw_fruits()
 
     pygame.display.flip()
+    clock.tick(FPS)
 
-# закрытие движка
 pygame.quit()
