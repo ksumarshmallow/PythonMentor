@@ -1,0 +1,442 @@
+series_name,season,title,imdb,engagement,date_aired,run_time,monster_type
+"Scooby Doo, Where Are You!",1,What a Night for a Knight,8.1,556.0,1969-09-13,21,Possessed Object
+"Scooby Doo, Where Are You!",1,A Clue for Scooby Doo,8.1,479.0,1969-09-20,22,Ghost
+"Scooby Doo, Where Are You!",1,Hassle in the Castle,8.0,455.0,1969-09-27,21,Ghost
+"Scooby Doo, Where Are You!",1,Mine Your Own Business,7.8,426.0,1969-10-04,21,Ancient
+"Scooby Doo, Where Are You!",1,Decoy for a Dognapper,7.5,391.0,1969-10-11,21,Ancient
+"Scooby Doo, Where Are You!",1,What the Hex Going On?,8.4,384.0,1969-10-18,21,Ghost
+"Scooby Doo, Where Are You!",1,Never Ape an Ape Man,7.6,358.0,1969-10-25,21,Animal
+"Scooby Doo, Where Are You!",1,Foul Play in Funland,8.2,358.0,1969-11-01,21,Mechanical
+"Scooby Doo, Where Are You!",1,The Backstage Rage,8.1,371.0,1969-11-08,21,Ghost
+"Scooby Doo, Where Are You!",1,Bedlam in the Big Top,8.0,346.0,1969-11-15,21,Ghost
+"Scooby Doo, Where Are You!",1,A Gaggle of Galloping Ghosts,8.5,379.0,1969-11-22,21,"Undead,Animal"
+"Scooby Doo, Where Are You!",1,"Scooby-Doo and a Mummy, Too",8.2,358.0,1969-11-29,21,Undead
+"Scooby Doo, Where Are You!",1,Which Witch is Which,8.4,356.0,1969-12-06,21,"Magician,Undead"
+"Scooby Doo, Where Are You!",1,Go Away Ghost Ship,8.1,331.0,1969-12-13,22,Ghost
+"Scooby Doo, Where Are You!",1,Spooky Space Kook,8.4,372.0,1969-12-20,21,Extraterrestrial
+"Scooby Doo, Where Are You!",1,A Night of Fright Is No Delight,8.7,403.0,1970-01-10,21,Ghost
+"Scooby Doo, Where Are You!",1,That's Snow Ghost,8.0,328.0,1970-01-17,21,Ghost
+"Scooby Doo, Where Are You!",2,Nowhere to Hyde,8.3,322.0,1970-09-12,21,Ghost
+"Scooby Doo, Where Are You!",2,Mystery Mask Mix-Up,7.8,312.0,1970-09-19,21,Ghost
+"Scooby Doo, Where Are You!",2,Scooby's Night with a Frozen Fright,7.7,301.0,1970-09-26,21,Ancient
+"Scooby Doo, Where Are You!",2,"Jeepers, It's the Creeper",8.5,347.0,1970-10-03,21,Ghost
+"Scooby Doo, Where Are You!",2,Haunted House Hang-Up,8.4,303.0,1970-10-10,21,Ghost
+"Scooby Doo, Where Are You!",2,A Tiki Scare Is No Fair,7.9,292.0,1970-10-17,21,"Ancient,Possessed Object"
+"Scooby Doo, Where Are You!",2,Who's Afraid of the Big Bad Werewolf?,8.2,292.0,1970-10-24,21,Animal
+"Scooby Doo, Where Are You!",2,Don't Fool with a Phantom,7.9,282.0,1970-10-31,21,Ghost
+The New Scooby-Doo Movies,1,The Ghastly Ghost Town,6.9,138.0,1972-09-09,43,"Ancient,Plant,Mechanical,Animal"
+The New Scooby-Doo Movies,1,The Dynamic Scooby-Doo Affair,7.8,232.0,1972-09-16,41,"Skeleton,Disguised"
+The New Scooby-Doo Movies,1,Wednesday Is Missing,7.9,119.0,1972-09-23,41,Animal
+The New Scooby-Doo Movies,1,The Frickert Fracas,7.9,116.0,1972-09-30,43,Possessed Object
+The New Scooby-Doo Movies,1,Guess Who's Knott Coming to Dinner?,7.9,111.0,1972-10-07,43,Ghost
+The New Scooby-Doo Movies,1,A Good Medium Is Rare,7.7,88.0,1972-10-14,41,"Possessed Object,Ghost"
+The New Scooby-Doo Movies,1,Sandy Duncan's Jekyll and Hyde,7.8,90.0,1972-10-21,41,"Animal,Ghost,Undead,Ancient,Disguised"
+The New Scooby-Doo Movies,1,The Secret of Shark Island,8.5,109.0,1972-10-28,41,Animal
+The New Scooby-Doo Movies,1,The Spooky Fog of Juneberry,7.7,96.0,1972-11-04,43,"Ancient,Ghost,Undead"
+The New Scooby-Doo Movies,1,The Ghost of Bigfoot,8.3,118.0,1972-11-11,43,Ghost
+The New Scooby-Doo Movies,1,The Ghost of the Red Baron,7.6,86.0,1972-11-18,43,Ghost
+The New Scooby-Doo Movies,1,The Ghostly Creep from the Deep,7.4,90.0,1972-11-25,43,Ghost
+The New Scooby-Doo Movies,1,The Haunted Horseman of Hagglethorn Hall,7.8,86.0,1972-12-02,41,"Animal,Ghost"
+The New Scooby-Doo Movies,1,The Phantom of the Country Music Hall,7.6,81.0,1972-12-09,41,Possessed Object
+The New Scooby-Doo Movies,1,The Caped Crusader Caper,7.2,183.0,1972-12-16,43,Mythical
+The New Scooby-Doo Movies,1,The Lochness Mess,7.9,114.0,1972-12-23,43,"Mythical,Ghost"
+The New Scooby-Doo Movies,2,The Mystery of Haunted Island,7.4,103.0,1973-09-08,44,Ghost
+The New Scooby-Doo Movies,2,The Haunted Showboat,7.9,82.0,1973-09-15,43,Ghost
+The New Scooby-Doo Movies,2,Mystery in Persia,7.5,82.0,1973-09-22,43,Mythical
+The New Scooby-Doo Movies,2,The Spirited Spooked Sports Show,7.4,73.0,1973-09-29,43,Ghost
+The New Scooby-Doo Movies,2,The Exterminator,7.6,85.0,1973-10-06,44,"Disguise,Animal,Ghost,Undead,Disguised"
+The New Scooby-Doo Movies,2,The Weird Winds of Winona,7.3,91.0,1973-10-13,44,Disguised
+The New Scooby-Doo Movies,2,The Haunted Candy Factory,7.8,104.0,1973-10-20,43,Possessed Object
+The New Scooby-Doo Movies,2,The Haunted Carnival,7.6,92.0,1973-10-27,43,Ghost
+The Scooby-Doo Show,1,High Rise Hair Raiser,7.6,112.0,1976-09-11,24,Ghost
+The Scooby-Doo Show,1,The Fiesta Host is an Aztec Ghost,7.4,97.0,1976-09-18,24,"Possessed Object,Ghost"
+The Scooby-Doo Show,1,The Gruesome Game of the Gator Ghoul,7.5,95.0,1976-09-25,24,Ghost
+The Scooby-Doo Show,1,Whatta Shocking Ghost,8.0,101.0,1976-10-02,24,Ghost
+The Scooby-Doo Show,1,The Headless Horseman of Halloween,8.0,127.0,1976-10-09,24,Ghost
+The Scooby-Doo Show,1,Scared a Lot in Camelot,7.6,93.0,1976-10-16,24,"Possessed Object,Ghost"
+The Scooby-Doo Show,1,The Harum-Scarum Sanitarium,8.2,99.0,1976-10-23,24,Ghost
+The Scooby-Doo Show,1,The No-Face Zombie Chase Case,7.7,91.0,1976-10-30,24,"Animal,Undead"
+The Scooby-Doo Show,1,Mamba Wamba and the Voodoo Hoodoo,7.0,81.0,1976-11-06,24,"Undead,Ghost"
+The Scooby-Doo Show,1,A Frightened Hound Meets Demons Underground,7.4,84.0,1976-11-13,24,Mythical
+The Scooby-Doo Show,1,A Bum Steer for Scooby,6.8,84.0,1976-11-20,24,"Animal,Ghost"
+The Scooby-Doo Show,1,There's a Demon Shark in the Foggy Dark,7.2,80.0,1976-11-25,24,Mythical
+The Scooby-Doo Show,1,"Scooby-Doo, Where's the Crew?",7.3,77.0,1976-11-27,24,"Animal,Plant,Ghost"
+The Scooby-Doo Show,1,The Ghost That Sacked the Quarterback,6.8,75.0,1976-12-04,24,Ghost
+The Scooby-Doo Show,1,The Ghost of the Bad Humor Man,7.7,84.0,1976-12-11,24,Ghost
+The Scooby-Doo Show,1,The Spirits of '76,7.5,81.0,1976-12-18,24,Ghost
+The Scooby-Doo Show,2,The Curse of the Viking Lake,7.4,71.0,1977-09-10,24,Ghost
+The Scooby-Doo Show,2,Vampire Bats and Scaredy Cats,8.2,104.0,1977-09-17,24,Undead
+The Scooby-Doo Show,2,"Hang in There, Scooby-Doo",7.4,76.0,1977-09-24,24,Ghost
+The Scooby-Doo Show,2,The Chiller Diller Movie Thriller,7.9,77.0,1977-10-01,24,Ghost
+Laff-a-Lympics,1,Scotland,7.2,21.0,1977-10-01,12,Animal
+The Scooby-Doo Show,2,The Spooky Case of the Grand Prix Race,7.4,75.0,1977-10-08,24,Ghost
+The Scooby-Doo Show,2,The Ozrk Witch,8.1,78.0,1977-10-15,24,"Undead,Ghost"
+The Scooby-Doo Show,2,Creepy Cruise,7.7,78.0,1977-10-22,24,Animal
+The Scooby-Doo Show,2,The Creepy Heap from the Deep,7.4,71.0,1977-10-29,24,"Undead,Animal"
+Laff-a-Lympics,1,The Himalayas,6.0,22.0,1977-11-05,12,Animal
+Laff-a-Lympics,1,Ireland,6.3,22.0,1977-11-26,12,Mythical
+Laff-a-Lympics,1,Hawaii,6.9,18.0,1977-12-03,12,Animal
+The Scooby-Doo Show,3,Watch Out! The Willawa!,7.5,96.0,1978-09-09,22,Animal
+Laff-a-Lympics,2,Caribbean,6.7,13.0,1978-09-09,12,Ghost
+The Scooby-Doo Show,3,A Creepy Tangle in the Bermuda Triangle,7.3,101.0,1978-09-16,23,Undead
+The Scooby-Doo Show,3,A Scary Night with a Snow Beast Fright,7.1,98.0,1978-09-23,23,Animal
+Laff-a-Lympics,2,South America,6.6,15.0,1978-09-23,12,Mythical
+Laff-a-Lympics,2,Transylvania,6.6,15.0,1978-09-23,12,"Animal,Plant,Undead"
+The Scooby-Doo Show,3,To Switch a Witch,8.0,107.0,1978-09-30,23,Ghost
+The Scooby-Doo Show,3,The Tar Monster,7.6,92.0,1978-10-07,22,Possessed Object
+Laff-a-Lympics,2,Atlantis,6.5,15.0,1978-10-07,12,Animal
+The Scooby-Doo Show,3,A Highland Fling with a Monstrous Thing,7.7,90.0,1978-10-14,23,"Mythical,Ghost"
+The Scooby-Doo Show,3,The Creepy Case of Old Iron Face,7.7,80.0,1978-10-21,23,Disguised
+The Scooby-Doo Show,3,"Jeepers, It's the Jaguaro!",7.2,91.0,1978-10-28,22,Animal
+The Scooby-Doo Show,3,Make a Beeline Away from that Feline,8.0,88.0,1978-11-04,23,Animal
+The Scooby-Doo Show,3,The Creepy Creature of Vulture's Claw,7.5,80.0,1978-11-11,23,Animal
+The Scooby-Doo Show,3,The Diabolical Disc Demon,7.5,84.0,1978-11-18,23,Ghost
+The Scooby-Doo Show,3,Scooby's Chinese Fortune Kooky Caper,7.5,85.0,1978-11-25,23,Ghost
+The Scooby-Doo Show,3,A Menace in Venice,7.5,92.0,1978-12-02,23,Ghost
+The Scooby-Doo Show,3,Don't Go Near the Fortress of Fear,7.2,83.0,1978-12-09,23,Ghost
+The Scooby-Doo Show,3,The Warlock of Wimbledon,6.8,84.0,1978-12-16,23,"Ancient,Animal"
+The Scooby-Doo Show,3,The Beast is Awake in Bottomless Lake,7.1,84.0,1978-12-23,23,Animal
+Scooby-Doo and Scrappy-Doo (first series),1,The Scarab Lives!,7.6,67.0,1979-09-22,21,Disguised
+Scooby-Doo and Scrappy-Doo (first series),1,The Night Ghoul of Wonderworld,7.6,59.0,1979-09-29,21,Undead
+Scooby-Doo and Scrappy-Doo (first series),1,Strange Encounters of a Scooby Kind,7.6,54.0,1979-10-06,21,Extraterrestrial
+Scooby-Doo and Scrappy-Doo (first series),1,The Neon Phantom of the Roller Disco!,7.4,55.0,1979-10-13,21,Ghost
+Scooby-Doo and Scrappy-Doo (first series),1,"Shiver and Shake, That Demon's a Snake",7.5,51.0,1979-10-20,21,"Disguised,Animal"
+Scooby-Doo and Scrappy-Doo (first series),1,The Scary Sky Skeleton,7.4,51.0,1979-10-27,21,Undead
+Scooby-Doo and Scrappy-Doo (first series),1,The Demon of the Dugout,7.5,51.0,1979-11-03,21,Mythical
+Scooby-Doo and Scrappy-Doo (first series),1,The Hairy Scare of the Devil Bear,7.3,53.0,1979-11-10,21,Animal
+Scooby-Doo and Scrappy-Doo (first series),1,Twenty Thousand Screams Under the Sea,7.6,47.0,1979-11-17,21,Animal
+Scooby-Doo and Scrappy-Doo (first series),1,I Left My Neck in San Francisco,8.0,52.0,1979-11-24,21,Undead
+Scooby-Doo and Scrappy-Doo (first series),1,When You Wish Upon a Star Creature,7.2,48.0,1979-12-01,21,Extraterrestrial
+Scooby-Doo and Scrappy-Doo (first series),1,"The Ghoul, the Bat and the Ugly",7.7,52.0,1979-12-08,21,Animal
+Scooby-Doo and Scrappy-Doo (first series),1,Rocky Mountain Yiiiii!,7.5,48.0,1979-12-15,21,Ghost
+Scooby-Doo and Scrappy-Doo (first series),1,The Sorcerer's a Menace,7.3,47.0,1979-12-22,21,Ghost
+Scooby-Doo and Scrappy-Doo (first series),1,"Lock the Door, It's a Minotaur!",7.5,46.0,1979-12-29,21,Mythical
+Scooby-Doo and Scrappy-Doo (second series),1,A Close Encounter with a Strange Kind,7.1,35.0,1980-11-08,8,Extraterrestrial
+Scooby-Doo and Scrappy-Doo (second series),1,A Fit Night Out for Bats,7.1,35.0,1980-11-08,8,Undead
+Scooby-Doo and Scrappy-Doo (second series),1,The Chinese Food Factory,7.1,35.0,1980-11-08,8,Disguised
+Scooby-Doo and Scrappy-Doo (second series),1,Scooby's Desert Dilemma,7.2,36.0,1980-11-15,8,Magician
+Scooby-Doo and Scrappy-Doo (second series),1,The Old Cat and Mouse Game,7.2,37.0,1980-11-15,8,Animal
+Scooby-Doo and Scrappy-Doo (second series),1,Mummy's the Word,7.2,36.0,1980-11-22,8,Undead
+Scooby-Doo and Scrappy-Doo (second series),1,Scooby's Fantastic Island,7.1,31.0,1980-11-29,8,Ancient
+Scooby-Doo and Scrappy-Doo (second series),1,Long John Scrappy,6.8,32.0,1980-11-29,8,Ancient
+Scooby-Doo and Scrappy-Doo (second series),1,Swamp Witch,6.7,36.0,1980-12-13,8,Magician
+Scooby-Doo and Scrappy-Doo (second series),1,Sir Scooby and the Black Knight,7.0,29.0,1980-12-13,8,Ancient
+Scooby-Doo and Scrappy-Doo (second series),1,Waxworld,6.7,36.0,1980-12-20,8,Possessed Object
+Scooby-Doo and Scrappy-Doo (second series),1,Scooby in Wonderland,7.0,29.0,1980-12-20,8,"Magician,Plant,Animal"
+Scooby-Doo and Scrappy-Doo (second series),1,South Seas Scare,7.0,32.0,1980-12-27,8,Possessed Object
+Scooby-Doo and Scrappy-Doo (second series),1,Alaskan King Coward,7.0,32.0,1980-12-27,8,Animal
+Scooby-Doo and Scrappy-Doo (second series),1,"Et Tu, Scoob?",6.7,29.0,1981-01-03,8,Ancient
+Scooby-Doo and Scrappy-Doo (second series),1,Soggy Bog Scooby,6.7,29.0,1981-01-03,8,Animal
+Scooby-Doo and Scrappy-Doo (second series),1,Moonlight Madness,7.0,32.0,1981-01-10,8,Animal
+Scooby-Doo and Scrappy-Doo (second series),1,Scooby at the Center of the World,7.1,31.0,1981-01-17,8,Possessed Object
+Scooby-Doo and Scrappy-Doo (second series),1,Scooby's Trip to Ahz,7.1,31.0,1981-01-17,8,Magician
+Scooby-Doo and Scrappy-Doo (second series),1,A Fright at the Opera,7.2,31.0,1981-01-24,8,Disguised
+Scooby-Doo and Scrappy-Doo (second series),1,Robot Ranch,7.1,31.0,1981-01-24,8,Mechanical
+Scooby-Doo and Scrappy-Doo (second series),1,Surprised Spies,7.1,31.0,1981-01-24,8,Disguised
+Scooby-Doo and Scrappy-Doo (second series),1,The Invasion of the Scooby Snatchers,7.2,31.0,1981-01-31,8,Extraterrestrial
+Scooby-Doo and Scrappy-Doo (second series),2,Scooby-Nocchio,7.4,32.0,1981-09-19,8,Magician
+Scooby-Doo and Scrappy-Doo (second series),2,Lighthouse Keeper Scooby,7.4,32.0,1981-09-19,8,Ghost
+Scooby-Doo and Scrappy-Doo (second series),2,Scooby's Roots,7.4,32.0,1981-09-19,8,Ghost
+Scooby-Doo and Scrappy-Doo (second series),2,Scooby's Escape from Atlantis,7.2,30.0,1981-09-26,8,Animal
+Scooby-Doo and Scrappy-Doo (second series),2,Excalibur Scooby,7.2,30.0,1981-09-26,8,"Magician,Animal"
+Scooby-Doo and Scrappy-Doo (second series),2,Scooby Saves the World,7.1,27.0,1981-09-26,8,Extraterrestrial
+Scooby-Doo and Scrappy-Doo (second series),2,Rickshaw Scooby,7.1,29.0,1981-10-03,8,Mythical
+Scooby-Doo and Scrappy-Doo (second series),2,Scooby's Luck of the Irish,7.2,30.0,1981-10-03,8,Mythical
+Scooby-Doo and Scrappy-Doo (second series),2,Scooby's House of Mystery,7.1,27.0,1981-10-10,8,Magician
+Scooby-Doo and Scrappy-Doo (second series),2,Sweet Dreams Scooby,7.1,27.0,1981-10-10,8,"Ancient,Animal"
+Scooby-Doo and Scrappy-Doo (second series),2,Scooby-Doo 2000,7.1,29.0,1981-10-17,8,Mechanical
+Scooby-Doo and Scrappy-Doo (second series),2,Punk Rock Scooby,7.1,29.0,1981-10-17,8,Extraterrestrial
+Scooby-Doo and Scrappy-Doo (second series),2,Canine to Five,7.4,27.0,1981-10-17,8,Animal
+Scooby-Doo and Scrappy-Doo (second series),2,Hard Hat Scooby,7.1,27.0,1981-10-24,8,Undead
+Scooby-Doo and Scrappy-Doo (second series),2,Hothouse Scooby,7.1,29.0,1981-10-24,8,Plant
+Scooby-Doo and Scrappy-Doo (second series),2,Tenderbigfoot,7.1,32.0,1981-10-31,8,Animal
+Scooby-Doo and Scrappy-Doo (second series),2,Scooby and the Beanstalk,7.1,32.0,1981-10-31,8,Mythical
+Scooby-Doo and Scrappy-Doo (second series),3,Catfish Burglar Caper,7.1,24.0,1982-10-02,8,Disguised
+Scooby-Doo and Scrappy-Doo (second series),3,Movie Monster Menace,7.3,25.0,1982-10-02,8,"Mythical,Possessed Object,Animal"
+Scooby-Doo and Scrappy-Doo (second series),3,Comic Book Caper,7.4,23.0,1982-11-06,8,Disguised
+Scooby-Doo and Scrappy-Doo (second series),3,Scooby-Doo and Genie-Poo,7.1,25.0,1982-11-20,8,Mythical
+Scooby-Doo and Scrappy-Doo (second series),3,Close Encounter of the Worst Kind,7.2,23.0,1982-11-27,8,Extraterrestrial
+Scooby-Doo and Scrappy-Doo (second series),3,Captain Canine Caper,7.2,23.0,1982-11-27,8,Disguised
+Scooby-Doo and Scrappy-Doo (second series),3,The Incredible Cat Lady Caper,7.0,23.0,1982-12-04,8,Animal
+Scooby-Doo and Scrappy-Doo (second series),3,One Million Years Before Lunch,7.1,24.0,1982-12-11,8,Ancient
+Scooby-Doo and Scrappy-Doo (second series),3,Where's the Wolf,7.4,24.0,1982-12-11,8,Animal
+Scooby-Doo and Scrappy-Doo (second series),3,Snow Job Too Small,6.8,26.0,1982-12-19,8,Animal
+The New Scooby and Scrappy Doo Show,1,Scooby the Barbarian,7.4,27.0,1983-09-10,11,Ancient
+The New Scooby and Scrappy Doo Show,1,No Sharking Zone,7.4,27.0,1983-09-10,11,"Plant,Animal"
+The New Scooby and Scrappy Doo Show,1,Scoobygeist,7.5,21.0,1983-09-10,11,"Possessed Object,Undead,Ghost"
+The New Scooby and Scrappy Doo Show,1,The Quagmire Quake Caper,7.5,21.0,1983-09-10,11,Possessed Object
+The New Scooby and Scrappy Doo Show,1,Hound of the Scoobyvilles,7.5,17.0,1983-09-17,11,Animal
+The New Scooby and Scrappy Doo Show,1,The Dinosaur Deception,7.5,17.0,1983-09-17,11,Animal
+The New Scooby and Scrappy Doo Show,1,The Creature Came from The Chemlab,7.7,20.0,1983-09-17,11,Possessed Object
+The New Scooby and Scrappy Doo Show,1,"No Thanks, Masked Manx",7.7,20.0,1983-09-17,11,Animal
+The New Scooby and Scrappy Doo Show,1,Scooby of the Jungle,7.2,18.0,1983-09-24,11,Animal
+The New Scooby and Scrappy Doo Show,1,"Scooby-Doo and Cyclops, Too",7.2,18.0,1983-09-24,11,Undead
+The New Scooby and Scrappy Doo Show,1,Scooby Roo,7.5,15.0,1983-10-01,11,Animal
+The New Scooby and Scrappy Doo Show,1,Wizards and Warlocks,7.3,15.0,1983-10-08,11,"Magician,Animal"
+The New Scooby and Scrappy Doo Show,1,Scoobsie,7.3,15.0,1983-10-08,11,Ghost
+The New Scooby and Scrappy Doo Show,1,The Crazy Carnival Caper,7.1,17.0,1983-10-15,11,Disguised
+The New Scooby and Scrappy Doo Show,1,Scooby and the Minotaur,7.4,18.0,1983-10-29,11,Mythical
+The New Scooby and Scrappy Doo Show,1,Scooby Pinch Hits,7.4,18.0,1983-10-29,11,Ghost
+The New Scooby and Scrappy Doo Show,1,The Fall Dog,7.2,20.0,1983-11-05,11,Mythical
+The New Scooby and Scrappy Doo Show,1,The Scooby Coupe,7.2,20.0,1983-11-05,11,Ghost
+The New Scooby and Scrappy Doo Show,1,Who's Minding the Monster,6.5,21.0,1983-11-26,11,"Animal,Undead"
+The New Scooby and Scrappy Doo Show,1,Scooby ala Mode,6.5,21.0,1983-11-26,11,Ghost
+The New Scooby and Scrappy Doo Show,1,Where's Scooby-Doo?,6.5,19.0,1983-12-03,23,Undead
+The New Scooby and Scrappy Doo Show,1,Wedding Bell Boos!,6.5,23.0,1983-12-10,23,Ghost
+The New Scooby-Doo Mysteries,1,"Happy Birthday, Scooby-Doo",7.2,45.0,1984-09-08,23,Disguised
+The New Scooby-Doo Mysteries,1,Scooby's Peep-Hole Pandemonium,7.2,29.0,1984-09-15,11,Undead
+The New Scooby-Doo Mysteries,1,The Hand of Horror,7.2,29.0,1984-09-15,11,Possessed Object
+The New Scooby-Doo Mysteries,1,Scoo-Be or Not Scoo-Be?,7.5,29.0,1984-09-22,11,Animal
+The New Scooby-Doo Mysteries,1,The Stoney Glare Stare,7.5,29.0,1984-09-22,11,Mythical
+The New Scooby-Doo Mysteries,1,Mission: Un-Doo-Able,7.0,26.0,1984-09-29,11,Super-Villain
+The New Scooby-Doo Mysteries,1,The Bee Team,7.0,26.0,1984-09-29,11,Animal
+The New Scooby-Doo Mysteries,1,Doom Service,7.1,24.0,1984-10-06,11,Ghost
+The New Scooby-Doo Mysteries,1,Ghost of the Ancient Astronauts,6.9,36.0,1984-10-13,23,Undead
+The New Scooby-Doo Mysteries,1,The Night of Living Toys,7.2,23.0,1984-10-20,11,Mythical
+The New Scooby-Doo Mysteries,1,South Pole Vault,7.2,23.0,1984-10-20,11,Animal
+The New Scooby-Doo Mysteries,1,A Halloween Hassle at Dracula's Castle,8.0,47.0,1984-10-27,23,Ghost
+The New Scooby-Doo Mysteries,1,A Night Louse at the White House,7.5,26.0,1984-11-03,23,Ghost
+The New Scooby-Doo Mysteries,1,Showboat Scooby,7.3,27.0,1984-11-10,11,Ghost
+The New Scooby-Doo Mysteries,1,Sherlock Doo,7.6,27.0,1984-11-17,23,Ghost
+The New Scooby-Doo Mysteries,1,A Scarey Duel with a Cartoon Ghoul,7.0,24.0,1984-11-24,11,Animal
+The New Scooby-Doo Mysteries,1,E*I*E*I*O,7.0,24.0,1984-11-24,11,Animal
+The New Scooby-Doo Mysteries,1,The Nutcracker Scoob,7.9,60.0,1984-12-01,23,Ghost
+The 13 Ghosts of Scooby-Doo,1,To All the Ghouls I've Loved Before,7.7,104.0,1985-09-07,24,"Animal,Undead,Ghost"
+The 13 Ghosts of Scooby-Doo,1,Scoobra Kadoobra,7.6,91.0,1985-09-14,24,"Plant,Mythical,Animal"
+The 13 Ghosts of Scooby-Doo,1,Me and My Shadow Demon,7.3,84.0,1985-09-21,24,"Magician,Mythical,Animal"
+The 13 Ghosts of Scooby-Doo,1,Reflections in the Ghoulish Eye,7.2,79.0,1985-09-28,24,"Mythical,Ghost"
+The 13 Ghosts of Scooby-Doo,1,That's Monstertainment,7.9,84.0,1985-10-05,24,"Mythical,Undead"
+The 13 Ghosts of Scooby-Doo,1,Ship of Ghouls,7.5,74.0,1985-10-12,24,"Mythical,Ghost"
+The 13 Ghosts of Scooby-Doo,1,A Spooky Little Ghoul Like You,7.6,76.0,1985-10-19,24,"Magician,Ghost"
+The 13 Ghosts of Scooby-Doo,1,When You Witch Upon a Star,7.1,78.0,1985-10-26,24,Magician
+The 13 Ghosts of Scooby-Doo,1,It's a Wonderful Scoob,7.4,77.0,1985-11-02,24,"Magician,Ghost"
+The 13 Ghosts of Scooby-Doo,1,Scooby in Kwacky Land,7.7,76.0,1985-11-09,24,"Mythical,Ghost"
+The 13 Ghosts of Scooby-Doo,1,Coast-to-Ghost,7.4,71.0,1985-11-16,24,"Plant,Ghost,Undead"
+The 13 Ghosts of Scooby-Doo,1,The Ghouliest Show on Earth,7.4,77.0,1985-11-23,24,"Magician,Ghost"
+The 13 Ghosts of Scooby-Doo,1,Horror-Scope Scoob,7.4,77.0,1985-12-07,24,"Mythical,Undead,Ghost"
+A Pup Named Scooby-Doo,1,A Bicycle Built for Boo,7.3,68.0,1988-09-10,23,Ghost
+A Pup Named Scooby-Doo,1,The Sludge Monster from the Earth's Core,7.5,58.0,1988-09-17,23,Possessed Object
+A Pup Named Scooby-Doo,1,The Schnoock Who Took My Comic Book,8.0,55.0,1988-09-24,23,Animal
+A Pup Named Scooby-Doo,1,Wanted Cheddar Alive,7.5,61.0,1988-10-01,23,Possessed Object
+A Pup Named Scooby-Doo,1,For Letter or Worse,7.4,44.0,1988-10-08,23,Ghost
+A Pup Named Scooby-Doo,1,The Babysitter from Beyond,7.6,50.0,1988-10-15,23,Undead
+A Pup Named Scooby-Doo,1,Snow Place Like Home,7.8,44.0,1988-10-22,23,Possessed Object
+A Pup Named Scooby-Doo,1,"Now Museum, Now You Don't",7.7,47.0,1988-10-29,23,Ghost
+A Pup Named Scooby-Doo,1,Scooby Dude,7.0,47.0,1988-11-05,23,Undead
+A Pup Named Scooby-Doo,1,Ghost Who's Coming to Dinner,7.5,53.0,1988-11-12,23,Ghost
+A Pup Named Scooby-Doo,1,The Story Stick,6.9,46.0,1988-11-19,23,Possessed Object
+A Pup Named Scooby-Doo,1,Robopup,7.2,44.0,1988-11-26,23,Ghost
+A Pup Named Scooby-Doo,1,Lights...Camera...Monster,7.5,45.0,1988-12-03,23,Plant
+A Pup Named Scooby-Doo,2,Curse of the Collar,7.7,43.0,1989-09-09,23,Ghost
+A Pup Named Scooby-Doo,2,The Return of Commander Cool,7.7,43.0,1989-09-16,23,Extraterrestrial
+A Pup Named Scooby-Doo,2,The Spirit of Rock'n Roll,7.8,43.0,1989-09-23,23,Undead
+A Pup Named Scooby-Doo,2,Chickenstein Lives,7.5,38.0,1989-09-30,23,Undead
+A Pup Named Scooby-Doo,2,Night of the Living Burger,7.6,42.0,1989-10-07,23,Possessed Object
+A Pup Named Scooby-Doo,2,The Computer Walks Among Us,7.7,40.0,1989-10-14,23,Mechanical
+A Pup Named Scooby-Doo,2,"Terror, Thy Name is Zombo",7.8,38.0,1989-10-28,23,Ghost
+A Pup Named Scooby-Doo,3,Night of the Boogey Biker,7.1,37.0,1990-09-08,11,Undead
+A Pup Named Scooby-Doo,3,Dawn of the Spooky Shuttle Scare,7.1,37.0,1990-09-08,11,Ghost
+A Pup Named Scooby-Doo,3,Horror of the Haunted Hairpiece,6.9,35.0,1990-10-06,23,Possessed Object
+A Pup Named Scooby-Doo,3,Wrestle Maniacs,7.2,38.0,1990-11-03,23,Ghost
+A Pup Named Scooby-Doo,4,The Were-Doo of Doo Manor,7.2,40.0,1991-08-03,23,Animal
+A Pup Named Scooby-Doo,4,The Ghost of Mrs. Shusham,6.6,37.0,1991-08-10,11,Ghost
+A Pup Named Scooby-Doo,4,Mayhem of the Moving Mollusk,7.2,32.0,1991-08-17,23,Animal
+What's New Scooby-Doo?,1,There's No Creature Like Snow Creature,7.5,176.0,2002-09-14,21,Animal
+What's New Scooby-Doo?,1,3-D Struction,7.4,150.0,2002-09-21,21,Animal
+What's New Scooby-Doo?,1,Space Ape and the Cape,7.6,151.0,2002-09-28,21,Extraterrestrial
+What's New Scooby-Doo?,1,Big Scare in the Big Easy,7.7,142.0,2002-10-05,21,Ghost
+What's New Scooby-Doo?,1,"It's Mean, It's Green, It's the Mystery Machine",7.6,144.0,2002-10-26,21,Possessed Object
+What's New Scooby-Doo?,1,Riva Ras Regas,7.5,125.0,2002-11-02,21,Ghost
+What's New Scooby-Doo?,1,Roller Ghoster Ride,7.7,133.0,2002-11-09,21,Animal
+What's New Scooby-Doo?,1,"Safari, So Goodie!",7.1,130.0,2002-11-23,21,Animal
+What's New Scooby-Doo?,1,She Sees Sea Monsters by the Sea Shore,7.1,122.0,2002-11-30,21,Animal
+What's New Scooby-Doo?,1,A Scooby-Doo! Christmas,7.5,137.0,2002-12-13,21,Possessed Object
+What's New Scooby-Doo?,1,Toy Scary Boo,7.7,122.0,2003-02-01,21,Mechanical
+What's New Scooby-Doo?,1,Lights! Camera! Mayhem!,7.5,115.0,2003-02-15,21,Ghost
+What's New Scooby-Doo?,1,Pompii and Circumstance,7.1,110.0,2003-02-22,21,Ancient
+What's New Scooby-Doo?,1,The Unnatural,7.3,110.0,2003-03-22,21,Ghost
+What's New Scooby-Doo?,2,Big Appetite in Little Tokyo,7.2,112.0,2003-09-13,21,"Magician,Animal"
+What's New Scooby-Doo?,2,Mummy Scares Best,7.6,102.0,2003-09-20,21,Undead
+What's New Scooby-Doo?,2,The Fast and the Wormious,7.4,104.0,2003-09-27,21,Animal
+What's New Scooby-Doo?,2,High-Tech House of Horrors,7.5,101.0,2003-10-04,21,Mechanical
+What's New Scooby-Doo?,2,The Vampire Strikes Back,7.4,105.0,2003-10-18,21,Undead
+What's New Scooby-Doo?,2,A Scooby-Doo Halloween,7.6,129.0,2003-10-25,21,"Possessed Object,Ghost"
+What's New Scooby-Doo?,2,Homeward Hound,7.2,97.0,2003-10-25,21,Animal
+What's New Scooby-Doo?,2,The San Franpsycho,7.3,103.0,2004-03-20,21,Ancient
+What's New Scooby-Doo?,2,Simple Plan and the Invisible Madman,7.5,113.0,2004-03-22,21,Disguised
+What's New Scooby-Doo?,2,Recipe for Disaster,7.5,109.0,2004-03-23,21,Possessed Object
+What's New Scooby-Doo?,2,Large Dragon at Large,7.5,94.0,2004-03-24,21,Mythical
+What's New Scooby-Doo?,2,Uncle Scooby and Antarctica,7.4,99.0,2004-03-25,21,Animal
+What's New Scooby-Doo?,2,"New Mexico, Old Monster",7.2,96.0,2004-03-26,21,"Ancient,Animal"
+What's New Scooby-Doo?,2,It's All Greek to Scooby,7.4,91.0,2004-03-27,21,Mythical
+What's New Scooby-Doo?,3,Fright House of a Lighthouse,8.0,128.0,2005-01-29,21,Undead
+What's New Scooby-Doo?,3,"Go West, Young Scoob",7.2,102.0,2005-02-05,21,Mechanical
+What's New Scooby-Doo?,3,A Scooby-Doo Valentine,7.5,97.0,2005-02-11,21,Mechanical
+What's New Scooby-Doo?,3,Wrestle Maniacs,7.4,90.0,2005-02-12,21,Undead
+What's New Scooby-Doo?,3,Ready to Scare,7.5,89.0,2005-02-19,21,Possessed Object
+What's New Scooby-Doo?,3,Farmed & Dangerous,7.3,101.0,2005-02-25,21,Undead
+What's New Scooby-Doo?,3,Diamonds Are a Ghoul's Best Friend,7.0,96.0,2005-03-03,21,Undead
+What's New Scooby-Doo?,3,A Terrifying Round with a Menacing Metallic Clown,7.6,105.0,2005-03-12,21,Mechanical
+What's New Scooby-Doo?,3,Camp Comeoniwannascareya,7.5,100.0,2005-03-19,21,Possessed Object
+What's New Scooby-Doo?,3,Block-Long Hong Kong Terror,7.4,88.0,2005-03-26,21,Mythical
+What's New Scooby-Doo?,3,"Gentlemen, Start Your Monsters!",7.3,87.0,2005-04-02,21,Undead
+What's New Scooby-Doo?,3,Gold Paw,7.4,84.0,2005-04-09,21,Possessed Object
+What's New Scooby-Doo?,3,Reef Grief!,7.5,92.0,2005-04-19,21,"Plant,Possessed Object"
+What's New Scooby-Doo?,3,E-Scream,7.4,91.0,2006-07-21,21,Animal
+Shaggy & Scooby-Doo Get a Clue!,1,Shags to Riches,6.1,29.0,2006-09-23,23,"Super-Villain,Dr. Trebal,Disguised"
+Shaggy & Scooby-Doo Get a Clue!,1,More Fondue for Scooby-Doo,5.0,21.0,2006-09-30,22,"Super-Villain,Dr. Trebal,Disguised"
+Shaggy & Scooby-Doo Get a Clue!,1,High Society Scooby,6.0,22.0,2006-10-07,23,"Super-Villain,Disguised"
+Shaggy & Scooby-Doo Get a Clue!,1,Party Arty,5.9,19.0,2006-11-04,23,"Super-Villain,Mechanical,Disguised"
+Shaggy & Scooby-Doo Get a Clue!,1,Smart House,5.9,17.0,2006-11-11,23,"Super-Villain,Mechanical,Disguised"
+Shaggy & Scooby-Doo Get a Clue!,1,Lightning Strikes Twice,5.5,17.0,2006-11-18,22,"Super-Villain,Disguised"
+Shaggy & Scooby-Doo Get a Clue!,1,Don't Feed the Animals,5.8,18.0,2007-02-02,23,"Super-Villain,Disguised"
+Shaggy & Scooby-Doo Get a Clue!,1,Mysterty of the Missing Mystery Solvers,6.9,17.0,2007-02-10,23,"Super-Villain,Disguised"
+Shaggy & Scooby-Doo Get a Clue!,1,Chefs of Steel,5.1,16.0,2007-02-17,22,"Super-Villain,Disguised"
+Shaggy & Scooby-Doo Get a Clue!,1,Almost Ghosts,6.1,20.0,2007-02-24,23,"Super-Villain,Disguised"
+Shaggy & Scooby-Doo Get a Clue!,1,Pole to Pole,6.1,14.0,2007-03-03,22,"Super-Villain,Disguised"
+Shaggy & Scooby-Doo Get a Clue!,1,Big Trouble,5.9,17.0,2007-04-28,23,"Super-Villain,Disguised"
+Shaggy & Scooby-Doo Get a Clue!,1,Operation Dog and Hippy Boy,5.1,14.0,2007-05-05,22,"Super-Villain,Disguised"
+Shaggy & Scooby-Doo Get a Clue!,2,Shaggy and Scooby World,5.3,15.0,2007-09-22,23,"Super-Villain,Disguised"
+Shaggy & Scooby-Doo Get a Clue!,2,Almost Purr-fect,5.2,16.0,2007-09-29,23,"Super-Villain,Disguised"
+Shaggy & Scooby-Doo Get a Clue!,2,Inside Job,5.9,18.0,2007-10-06,22,"Super-Villain,Disguised"
+Shaggy & Scooby-Doo Get a Clue!,2,Zoinksman,5.5,14.0,2007-10-13,23,"Super-Villain,Disguised,Disguised"
+Shaggy & Scooby-Doo Get a Clue!,2,The Many Faces of Evil,5.4,13.0,2007-11-03,23,Super-Villain
+Shaggy & Scooby-Doo Get a Clue!,2,Crusin' for a Brusin',5.6,11.0,2007-11-10,22,"Super-Villain,Disguised"
+Shaggy & Scooby-Doo Get a Clue!,2,There's a Doctor in the House,5.5,11.0,2007-12-01,23,"Super-Villain,Disguised"
+Shaggy & Scooby-Doo Get a Clue!,2,Super Scary Movie Night,5.4,11.0,2008-01-26,22,"Super-Villain,Animal,Undead,Disguised"
+Shaggy & Scooby-Doo Get a Clue!,2,Runaway Robi,4.8,9.0,2008-02-02,23,"Super-Villain,Disguised"
+Shaggy & Scooby-Doo Get a Clue!,2,Don't Get a Big Head,4.6,9.0,2008-02-16,23,"Super-Villain,Disguised"
+Shaggy & Scooby-Doo Get a Clue!,2,Scooby Dudes,6.2,13.0,2008-02-23,23,"Super-Villain,Animal,Disugised,Disguised"
+Shaggy & Scooby-Doo Get a Clue!,2,Zoinks the Wonder Dog,5.1,9.0,2008-03-08,23,"Super-Villain,Mechanical,Disguised"
+Shaggy & Scooby-Doo Get a Clue!,2,Uncle Albert Alert,5.8,9.0,2008-03-15,23,"Super-Villain,Disguised"
+Scooby-Doo Mystery Incorporated,1,Beware the Beast From Below,7.9,337.0,2010-04-05,23,Possessed Object
+Scooby-Doo Mystery Incorporated,1,The Creeping Creatures,7.8,304.0,2010-07-19,23,Animal
+Scooby-Doo Mystery Incorporated,1,The Secret of the Ghost Rig,7.7,267.0,2010-07-26,23,Possessed Object
+Scooby-Doo Mystery Incorporated,1,Revenge of the Man Crab,7.7,255.0,2010-08-02,22,Animal
+Scooby-Doo Mystery Incorporated,1,The Song of Mystery,8.0,254.0,2010-08-09,22,"Ancient,Possessed"
+Scooby-Doo Mystery Incorporated,1,The Legend of Alice May,8.5,263.0,2010-08-16,23,Ghost
+Scooby-Doo Mystery Incorporated,1,In Fear of the Phantom,8.2,256.0,2010-08-23,23,Ghost
+Scooby-Doo Mystery Incorporated,1,The Grasp of the Gnome,7.8,229.0,2010-08-30,23,Mythical
+Scooby-Doo Mystery Incorporated,1,Battle of the Humungonauts,7.6,221.0,2010-09-07,23,Animal
+Scooby-Doo Mystery Incorporated,1,Howl of the Fright Hound,8.2,235.0,2010-10-04,23,Mechanical
+Scooby-Doo Mystery Incorporated,1,The Secret Serum,8.1,225.0,2010-10-11,22,Undead
+Scooby-Doo Mystery Incorporated,1,The Shrieking Madness,8.4,246.0,2010-10-18,22,Extraterrestrial
+Scooby-Doo Mystery Incorporated,1,When the Cicada Calls,8.0,224.0,2010-10-25,22,Animal
+Scooby-Doo Mystery Incorporated,1,Mystery Solvers Club State Finals,8.2,254.0,2011-05-03,22,Undead
+Scooby-Doo Mystery Incorporated,1,The Wild Brood,7.7,221.0,2011-05-10,22,Mythical
+Scooby-Doo Mystery Incorporated,1,Where Walks Aphrodite,8.2,228.0,2011-05-17,21,Mythical
+Scooby-Doo Mystery Incorporated,1,Escape from Mystery Manor,8.8,250.0,2011-05-24,22,Ancient
+Scooby-Doo Mystery Incorporated,1,The Dragon's Secret,8.2,211.0,2011-05-31,22,Magician
+Scooby-Doo Mystery Incorporated,1,Nightfright,8.5,227.0,2011-06-07,22,Mythical
+Scooby-Doo Mystery Incorporated,1,The Siren's Song,8.1,203.0,2011-06-14,23,Animal
+Scooby-Doo Mystery Incorporated,1,Menace of the Manticore,8.2,212.0,2011-06-21,22,Mythical
+Scooby-Doo Mystery Incorporated,1,Attack of the Headless Horror,8.1,196.0,2011-06-28,22,Ancient
+Scooby-Doo Mystery Incorporated,1,A Haunting in Crystal Cove,8.6,211.0,2011-07-05,22,Ghost
+Scooby-Doo Mystery Incorporated,1,Dead Justice,8.2,194.0,2011-07-12,22,Ghost
+Scooby-Doo Mystery Incorporated,1,Pawn of Shadows,8.8,212.0,2011-07-19,23,Undead
+Scooby-Doo Mystery Incorporated,1,All Fear the Freak,9.2,272.0,2011-07-26,23,Ancient
+Scooby-Doo Mystery Incorporated,2,The Night the Clown Cried,8.5,226.0,2012-07-30,23,Disguised
+Scooby-Doo Mystery Incorporated,2,The House of the Nightmare Witch,7.9,187.0,2012-07-31,23,"Magician,Possessed Object"
+Scooby-Doo Mystery Incorporated,2,The Night the Clown Cried II - Tears of Doom,8.4,197.0,2012-08-01,23,Disguised
+Scooby-Doo Mystery Incorporated,2,Web of the Dreamweaver!,8.2,192.0,2012-08-02,23,Magician
+Scooby-Doo Mystery Incorporated,2,The Hodag of Horror,8.4,188.0,2012-08-03,23,Animal
+Scooby-Doo Mystery Incorporated,2,Art of Darkness,7.7,177.0,2012-08-06,23,Mechanical
+Scooby-Doo Mystery Incorporated,2,The Gathering Gloom,8.2,172.0,2012-08-07,22,Undead
+Scooby-Doo Mystery Incorporated,2,Night on Haunted Mountain,8.3,183.0,2012-08-08,23,Mythical
+Scooby-Doo Mystery Incorporated,2,Grrim Judgment,8.3,176.0,2012-08-09,23,Undead
+Scooby-Doo Mystery Incorporated,2,Night Terrors,9.1,202.0,2012-08-10,23,Mythical
+Scooby-Doo Mystery Incorporated,2,The Midnight Zone,8.7,187.0,2012-08-13,22,"Mechanical,Ghost"
+Scooby-Doo Mystery Incorporated,2,Scarebear,8.2,169.0,2012-08-14,23,Animal
+Scooby-Doo Mystery Incorporated,2,Wrath of the Krampus,8.9,207.0,2012-08-15,22,Mythical
+Scooby-Doo Mystery Incorporated,2,Heart of Evil,7.6,174.0,2012-08-16,22,Mechanical
+Scooby-Doo Mystery Incorporated,2,Theater of Doom,8.6,180.0,2012-08-17,22,Undead
+Scooby-Doo Mystery Incorporated,2,Aliens Among Us,8.0,172.0,2013-03-25,22,"Animal,Extraterrestrial"
+Scooby-Doo Mystery Incorporated,2,The Horrible Herd,8.3,167.0,2013-03-25,22,Undead
+Scooby-Doo Mystery Incorporated,2,Dance of the Undead,8.0,180.0,2013-03-26,22,Undead
+Scooby-Doo Mystery Incorporated,2,The Devouring,7.8,166.0,2013-03-27,23,Mythical
+Scooby-Doo Mystery Incorporated,2,Stand and Deliver,8.3,171.0,2013-03-28,22,Disguised
+Scooby-Doo Mystery Incorporated,2,The Man in the Mirror,8.9,176.0,2013-03-29,22,Disguised
+Scooby-Doo Mystery Incorporated,2,Nightmare in Red,8.9,187.0,2013-04-02,23,Animal
+Scooby-Doo Mystery Incorporated,2,Dark Night of Hunters,8.4,165.0,2013-04-03,22,Magician
+Scooby-Doo Mystery Incorporated,2,Gates of Gloom,8.7,169.0,2013-04-04,23,Mechanical
+Scooby-Doo Mystery Incorporated,2,Through the Curtain,9.0,184.0,2013-04-05,22,Mythical
+Scooby-Doo Mystery Incorporated,2,Come Undone,9.3,260.0,2013-04-05,22,"Ancient,Mythical"
+"Be Cool, Scooby-Doo!",1,Mystery 101,7.9,122.0,2015-10-05,22,Ghost
+"Be Cool, Scooby-Doo!",1,Game of Chicken,7.2,102.0,2015-10-06,22,Ancient
+"Be Cool, Scooby-Doo!",1,All Pawns on Deck,7.4,101.0,2015-10-07,22,Animal
+"Be Cool, Scooby-Doo!",1,Poodle Justice,7.3,85.0,2015-10-08,22,Possessed Object
+"Be Cool, Scooby-Doo!",1,Grand Scam,7.3,78.0,2015-10-09,22,Ghost
+"Be Cool, Scooby-Doo!",1,Trading Chase,7.6,80.0,2015-10-12,22,Mythical
+"Be Cool, Scooby-Doo!",1,"Be Quiet, Scooby-Doo!",7.5,84.0,2015-10-15,22,Animal
+"Be Cool, Scooby-Doo!",1,Party Like It's 1899,8.2,88.0,2015-10-19,22,Undead
+"Be Cool, Scooby-Doo!",1,Screama Donna,7.4,72.0,2015-10-20,22,Ghost
+"Be Cool, Scooby-Doo!",1,Kitchen Frightmare,7.5,75.0,2015-10-21,22,Animal
+"Be Cool, Scooby-Doo!",1,"Me, Myself, and A.I.",7.5,72.0,2015-10-22,22,Mechanical
+"Be Cool, Scooby-Doo!",1,Area 51 Adjacent,7.4,71.0,2015-10-23,22,Extraterrestrial
+"Be Cool, Scooby-Doo!",1,"Where There's a Will, There's a Wraith",7.5,81.0,2015-10-28,22,Ghost
+"Be Cool, Scooby-Doo!",1,Scary Christmas,7.4,75.0,2015-12-05,22,Ancient
+"Be Cool, Scooby-Doo!",1,"If You Can't Scooby-Doo the Time,Don't Scooby-Doo the Crime",7.7,72.0,2015-12-10,24,Ghost
+"Be Cool, Scooby-Doo!",1,Gremlin on a Plane,7.8,66.0,2016-02-13,22,Mythical
+"Be Cool, Scooby-Doo!",1,Sorcerer Snacks Scare,7.9,67.0,2016-02-20,22,Magician
+"Be Cool, Scooby-Doo!",1,Saga of the Swamp Beast,8.2,67.0,2016-02-27,22,Plant
+"Be Cool, Scooby-Doo!",1,"Be Cold, Scooby-Doo!",7.5,63.0,2016-03-05,22,Possessed Object
+"Be Cool, Scooby-Doo!",1,Giant Problems,7.4,58.0,2016-03-12,22,Mythical
+"Be Cool, Scooby-Doo!",1,Eating Crow,7.4,54.0,2016-03-23,22,Possessed Object
+"Be Cool, Scooby-Doo!",1,I Scooby Dooby Do,7.2,58.0,2017-06-20,22,Undead
+"Be Cool, Scooby-Doo!",1,El Bandito,7.6,52.0,2017-06-20,22,Undead
+"Be Cool, Scooby-Doo!",1,Into the Mouth Madcap,7.2,50.0,2017-06-20,22,Disguised
+"Be Cool, Scooby-Doo!",1,The Norse Case Scenario,7.3,48.0,2017-06-20,22,Ghost
+"Be Cool, Scooby-Doo!",1,The People vs. Fred Jones,7.7,50.0,2017-06-20,22,Undead
+"Be Cool, Scooby-Doo!",2,Some Fred Time,8.2,53.0,2017-11-14,22,Animal
+"Be Cool, Scooby-Doo!",2,There Wolf,7.5,40.0,2017-11-15,22,Animal
+"Be Cool, Scooby-Doo!",2,Renn Scare,7.4,40.0,2017-11-15,22,Disguised
+"Be Cool, Scooby-Doo!",2,How to Train Your Coward,7.6,42.0,2017-12-21,22,Undead
+"Be Cool, Scooby-Doo!",2,Worst in Show,7.1,38.0,2017-11-17,22,Animal
+"Be Cool, Scooby-Doo!",2,Mysteries on the Disorient Express,7.5,42.0,2017-11-18,22,"Magician,Mythical,Undead"
+"Be Cool, Scooby-Doo!",2,Halloween,7.4,43.0,2017-09-28,22,"Magician,Possessed Object"
+"Be Cool, Scooby-Doo!",2,The Curse of Kaniaku,7.5,39.0,2017-11-19,22,Animal
+"Be Cool, Scooby-Doo!",2,Vote Velma,6.6,40.0,2017-11-19,22,Ghost
+"Be Cool, Scooby-Doo!",2,Scroogey Doo,7.7,47.0,2017-11-30,22,Ghost
+"Be Cool, Scooby-Doo!",2,In Space,8.0,44.0,2017-11-20,22,Extraterrestrial
+"Be Cool, Scooby-Doo!",2,Doo Not Distrub,7.9,50.0,2017-11-21,22,Undead
+"Be Cool, Scooby-Doo!",2,Silver Scream,7.4,38.0,2017-11-22,22,Ghost
+"Be Cool, Scooby-Doo!",2,Fright of Hand,7.2,35.0,2017-11-22,22,Animal
+"Be Cool, Scooby-Doo!",2,Greece in the World,6.7,35.0,2017-11-23,22,Mythical
+"Be Cool, Scooby-Doo!",2,American Goth,7.1,41.0,2018-03-08,22,Plant
+"Be Cool, Scooby-Doo!",2,Omelettes Are Forever,7.2,31.0,2018-03-09,22,Disguised
+"Be Cool, Scooby-Doo!",2,Ghost in the Mystery Machine,7.4,36.0,2018-03-10,22,Possessed Object
+"Be Cool, Scooby-Doo!",2,Naughty or Ice,7.4,38.0,2018-03-11,22,Ancient
+"Be Cool, Scooby-Doo!",2,Night of the Upsetting Shorts,7.3,39.0,2018-03-12,22,Animal
+"Be Cool, Scooby-Doo!",2,Junkyard Dogs,6.9,37.0,2018-03-13,22,Mechanical
+"Be Cool, Scooby-Doo!",2,Protein Titans 2,6.7,33.0,2018-03-14,22,Ghost
+"Be Cool, Scooby-Doo!",2,World of Witchcraft,6.9,33.0,2018-03-15,22,Mythical
+"Be Cool, Scooby-Doo!",2,Professor Huh? Part 1,7.8,37.0,2018-03-16,22,Disguised
+"Be Cool, Scooby-Doo!",2,Professor Huh? Part 6 3/4,7.9,36.0,2018-03-17,22,Disguised
+"Be Cool, Scooby-Doo!",2,Pizza O'Possumm's,6.8,31.0,2018-03-18,11,Mechanical
+"Be Cool, Scooby-Doo!",2,The Curse of Half-Beard's Booty,6.8,31.0,2018-03-18,11,Ghost
+Scooby-Doo and Guess Who?,1,Revenge of the Swamp Monster,7.0,126.0,2019-06-27,22,Animal
+Scooby-Doo and Guess Who?,1,A Mystery Solving Gang Divided,7.9,93.0,2019-07-02,22,Ghost
+Scooby-Doo and Guess Who?,1,Peebles' Pet Show of Terrible Terrors!,7.9,79.0,2019-07-11,22,Animal
+Scooby-Doo and Guess Who?,1,"Elementary, My Dear Shaggy!",8.1,78.0,2019-07-18,22,Ghost
+Scooby-Doo and Guess Who?,1,Ollie Ollie In-Come Free!,7.3,84.0,2019-07-25,23,Undead
+Scooby-Doo and Guess Who?,1,The Scooby of a Thousand Faces!,8.1,74.0,2019-08-01,22,Mythical
+Scooby-Doo and Guess Who?,1,The Cursed Cabinet of Professor Madds Markson,8.3,70.0,2019-08-08,22,"Animal,Undead"
+Scooby-Doo and Guess Who?,1,When Urkel-Bots Go Bad!,6.5,74.0,2019-08-15,22,Magician
+Scooby-Doo and Guess Who?,1,The Fastest Food Fiend!,7.5,52.0,2019-08-22,23,Ghost
+Scooby-Doo and Guess Who?,1,Attack of the Weird Al-Osaurus!,7.5,61.0,2019-08-29,23,Animal
+Scooby-Doo and Guess Who?,1,"Now You Sia, Now You Don't!",7.4,59.0,2019-09-05,22,Disguised
+Scooby-Doo and Guess Who?,1,Quit Clowning!,7.4,47.0,2019-09-12,23,Ghost
+Scooby-Doo and Guess Who?,1,"What a Night, for a Dark Knight",8.7,84.0,2019-09-19,22,Animal
+Scooby-Doo and Guess Who?,1,The Nightmare Ghost of Psychic U!,8.1,38.0,2020-07-02,23,Ghost
+Scooby-Doo and Guess Who?,1,"The Sword, the Fox and the Scooby-Doo!",8.8,35.0,2020-07-02,23,Animal
+Scooby-Doo and Guess Who?,1,One Minuite Mysteries!,7.9,36.0,2020-07-02,23,"Undead,Ghost,Disguised,Magician,Possessed Object,Extraterrestrial,Ancient,Animal"
+Scooby-Doo and Guess Who?,1,Hollywood Knights!,8.1,25.0,2020-07-02,22,Possessed Object
+Scooby-Doo and Guess Who?,1,The New York Underground!,7.8,27.0,2020-07-02,22,Animal
+Scooby-Doo and Guess Who?,1,Fear the Fire Beast!,7.7,23.0,2020-07-02,22,Animal
+Scooby-Doo and Guess Who?,1,Too Many Dummies!,8.2,28.0,2020-07-02,22,Possessed Object
+Scooby-Doo and Guess Who?,1,Dance Matron of Mayhem,7.6,22.0,2020-07-02,22,Ghost
+Scooby-Doo and Guess Who?,1,The Wedding Witch of Wainsly Hall!,8.6,19.0,2020-07-02,22,Magician
+Scooby-Doo and Guess Who?,1,A Run Cycle Through Time!,7.9,21.0,2020-07-02,22,"Mechanical,Animal"
+Scooby-Doo and Guess Who?,1,I Put a Hex on You!,8.4,25.0,2020-07-02,22,Ghost
+Scooby-Doo and Guess Who?,1,The High School Wolfman's Musical Lament!,7.6,27.0,2020-07-02,23,Animal
+Scooby-Doo and Guess Who?,1,Space Station Scooby,8.2,24.0,2020-07-02,22,Animal
